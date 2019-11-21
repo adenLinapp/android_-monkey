@@ -1,6 +1,7 @@
 # android Monkey
 # Monkey Test簡介
 Monkey，猴子。就是像一只猴子，什么都不知道，隨意進行操作。它是Android中的一个命令行工具，可以運行模擬器或是實機上面。實現對性行中的程式進行壓力測試。
+# 常用指令
 * p ：指定的包名 例：
   * adb shell monkey -p <package>
 * s : 隨機操作。配置此参数，则事件顺序一致。例:
@@ -17,4 +18,6 @@ Monkey，猴子。就是像一只猴子，什么都不知道，隨意進行操�
 
 * >:app运行日志存放位置。用来把运行的日志，放在指定的文件中。例：
   * adb shell monkey -p <package> 100 >Usr/local/
-![image](https://www.testwo.com/attachment/201211/15/10203_1352975858ZMmb.jpg)
+
+＃API腳本使用
+` DispatchTrackball(long downTime, long eventTime, int action, float x, float y, float pressure, float size, int metaState, float xPrecision, float yPrecision, int device, int edgeFlags)`
