@@ -1,0 +1,16 @@
+     type= raw events 
+     count= 10 
+     speed= 1.0 
+     start data >> 
+    LaunchActivity(com.android.browser,com.android.browser.BrowserActivity)
+    ProfileWait()
+    Tap(223,146)
+    ProfileWait()
+    DispatchPress(112)
+    ProfileWait()
+    DispatchString(www.google.com)
+ProfileWait()
+DispatchPress(KEYCODE_ENTER)
+
+ProfileWait()
+DispatchPress(KEYCODE_HOME)
