@@ -20,4 +20,8 @@ Monkey，猴子。就是像一只猴子，什么都不知道，隨意進行操�
   * adb shell monkey -p <package> 100 >Usr/local/
 
 ＃API腳本使用
-` DispatchTrackball(long downTime, long eventTime, int action, float x, float y, float pressure, float size, int metaState, float xPrecision, float yPrecision, int device, int edgeFlags)`
+> DispatchTrackball(long downTime, long eventTime, int action, float x, float y, float pressure, float size, int metaState, float xPrecision, float yPrecision, int device, int edgeFlags)
+>> 只需要关注： action、x、y 即可
+>>> ACTION_DOWN = 0
+>>> ACTION_UP = 1
+>>> ACTION_MULTIPLE = 2
