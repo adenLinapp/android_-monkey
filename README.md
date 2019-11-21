@@ -1,6 +1,8 @@
-# android-kotlin example
+# android Monkey
+#1，Monkey Test簡介
+Monkey，猴子。就是像一只猴子，什么都不知道，随意进行操作。它是Android中的一个命令行工具，可以运行在模拟器里或实际设备中。它向系统发送伪随机的用户事件流(如按键输入、触摸屏输入、手势输入等)，实现对正在开发的应用程序进行压力测试。
 
-## kotlin-android-extensions 使用
-## kotlin監聽實作
-## /** Java與kotlin 語法差異 **/<br>
- https://github.com/MindorksOpenSource/from-java-to-kotlin/blob/master/README-ZH.md
+作者：_挖煤工
+链接：https://www.jianshu.com/p/d8cce129705b
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
