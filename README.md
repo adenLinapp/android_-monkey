@@ -20,7 +20,7 @@ Monkey，猴子。就是像一只猴子，什么都不知道，隨意進行操�
 
 * >:app运行日志存放位置。用来把运行的日志，放在指定的文件中。例：
   * adb shell monkey -p <package> 100 >Usr/local/
-
+![GITHUB]( https://images2015.cnblogs.com/blog/263119/201605/263119-20160505230123154-1071480837.png)
 # 常用API
 * LaunchActivity(pkg_name, cl_name): 啟動應用的Activity。參數：包名和啟動的Activity。
 
